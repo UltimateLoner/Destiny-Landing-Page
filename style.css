@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.bg-image {
+    background-image: url('images/bike_image.jpg');
+    height: 98vh;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first_header {
+    background-color: purple;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+nav {
+    float: right;
+    margin: 20px;
+}
+
+nav a {
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: purple;
+}
+
+.second_header {
+    color: #fff;
+    font-size: 50px;
+    padding: 20px;
+    position: absolute;
+    top: 220px;
+    left: 35px;
+}
+
+.tweek {
+    font-size: 16px;
+}
+
+.intro {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: purple;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+
+.intro:hover {
+    background-color: violet;
+    color: #000;
+}
+
+.second-part {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.second-part p {
+    padding: 0 200px;
+}
+
+.second-part-container {
+    display: flex;
+    margin: 50px;
+}
+
+/* .logo {
+     background-color: purple;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    display: block; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   height: 50px;
+   width: 50px;
+   display: block;
+   width: 100%;
+   margin: 0 auto;
+   border: 2px solid yellow;
+} */
+.logo1 {
+    display: flex;
+    justify-content: center;
+
+}
+ i {
+    background-color: purple;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+} 
+.container-1 {
+    /* border: 2px solid; */
+    padding: 15px;
+}
+.container-1 h2 {
+    text-align: center;
+}
+
+.third-part-container {
+    display: flex;
+}
+
+.container-2 {
+    margin: 60px 0;
+}
+
+.container-3 {
+    margin: 60px;
+}
+.container-3 h2 {
+    margin-bottom: 20px;
+}
+
+.link {
+    display: inline-block;
+    margin: 20px 0;
+}
+
+ul {
+    margin: 20px;
+}
+
+.last-part {
+    text-align: center;
+    margin: 60px;
+}
+
+.image {
+    border: 2px solid #fff;
+    border-radius: 500px;
+}
